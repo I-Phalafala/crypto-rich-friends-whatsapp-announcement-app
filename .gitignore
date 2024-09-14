@@ -40,3 +40,44 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Compiled output
+/whatsapp-webhook/dist
+/whatsapp-webhook/tmp
+/whatsapp-webhook/out-tsc
+/whatsapp-webhook/bazel-out
+
+# Node
+/whatsapp-webhook/node_modules
+/whatsapp-webhook/npm-debug.log
+/whatsapp-webhook/yarn-error.log
+
+# IDEs and editors
+/whatsapp-webhook/.idea/
+/whatsapp-webhook/.project
+/whatsapp-webhook/.classpath
+/whatsapp-webhook/.c9/
+/whatsapp-webhook/*.launch
+/whatsapp-webhook/.settings/
+/whatsapp-webhook/*.sublime-workspace
+
+# Visual Studio Code
+/whatsapp-webhook/.vscode/*
+/whatsapp-webhook/!.vscode/settings.json
+/whatsapp-webhook/!.vscode/tasks.json
+/whatsapp-webhook/!.vscode/launch.json
+/whatsapp-webhook/!.vscode/extensions.json
+/whatsapp-webhook/.history/*
+
+# Miscellaneous
+/whatsapp-webhook/.angular/cache
+/whatsapp-webhook/.sass-cache/
+/whatsapp-webhook/connect.lock
+/whatsapp-webhook/coverage
+/whatsapp-webhook/libpeerconnection.log
+/whatsapp-webhook/testem.log
+/whatsapp-webhook/typings
+
+# System files
+/whatsapp-webhook/.DS_Store
+/whatsapp-webhook/Thumbs.db

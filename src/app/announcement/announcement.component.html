@@ -1,0 +1,12 @@
+<div>
+    <h2>Send Announcement</h2>
+    <form (ngSubmit)="sendAnnouncement()">
+      <label for="to">To:</label>
+      <input type="text" id="to" [(ngModel)]="to" name="to" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" [(ngModel)]="message" name="message" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+</div>
